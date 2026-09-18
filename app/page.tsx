@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 
-export default function HomePage() {
+export default function Page() {
   const [formData, setFormData] = useState<Record<string, string>>({});
   const [status, setStatus] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
@@ -35,23 +35,26 @@ export default function HomePage() {
   };
 
   return (
-    <div id="page-wrapper">
+    <div className="home wp-singular page-template page-template-elementor_header_footer page page-id-69 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor wp-child-theme-hello-theme-child-master theme-default elementor-default elementor-template-full-width elementor-kit-11 elementor-page elementor-page-69">
       
 
+
+
+
 <a className="skip-link screen-reader-text" href="#content">Aller au contenu</a>
-<header className="elementor elementor-39 elementor-location-header" data-elementor-id="39" data-elementor-post-type="elementor_library" data-elementor-type="header">
-<div className="elementor-element elementor-element-1dd58e8 e-flex e-con-boxed e-con e-parent" data-element_type="container" data-id="1dd58e8" data-settings={`{"background_background":"classic"}`}>
+<header data-elementor-type="header" data-elementor-id="39" className="elementor elementor-39 elementor-location-header" data-elementor-post-type="elementor_library">
+<div className="elementor-element elementor-element-1dd58e8 e-flex e-con-boxed e-con e-parent" data-id="1dd58e8" data-element_type="container" data-settings={`{"background_background":"classic"}`}>
 <div className="e-con-inner">
-<div className="elementor-element elementor-element-86c8447 e-con-full e-flex e-con e-child" data-element_type="container" data-id="86c8447">
-<div className="elementor-element elementor-element-b6b3e85 elementor-widget__width-auto elementor-widget elementor-widget-image" data-element_type="widget" data-id="b6b3e85" data-widget_type="image.default">
+<div className="elementor-element elementor-element-86c8447 e-con-full e-flex e-con e-child" data-id="86c8447" data-element_type="container">
+<div className="elementor-element elementor-element-b6b3e85 elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="b6b3e85" data-element_type="widget" data-widget_type="image.default">
 <div className="elementor-widget-container">
-<a href="https://lp.laligneduvtc.fr">
-<img alt="" className="attachment-large size-large wp-image-1220" fetchPriority="high" height={454} sizes="(max-width: 800px) 100vw, 800px" src="/images/llv-logo.png" width={800} /> </a>
+<a href="/">
+<img fetchPriority="high" width={800} height={454} src="/images/llv-logo.png" className="attachment-large size-large wp-image-1220" alt="" sizes="(max-width: 800px) 100vw, 800px" /> </a>
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-82a9cd6 e-con-full e-flex e-con e-child" data-element_type="container" data-id="82a9cd6" data-settings={`{"background_background":"classic"}`}>
-<div className="elementor-element elementor-element-ec6e6ee elementor-mobile-align-center elementor-align-right elementor-list-item-link-inline elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="ec6e6ee" data-widget_type="icon-list.default">
+<div className="elementor-element elementor-element-82a9cd6 e-con-full e-flex e-con e-child" data-id="82a9cd6" data-element_type="container" data-settings={`{"background_background":"classic"}`}>
+<div className="elementor-element elementor-element-ec6e6ee elementor-mobile-align-center elementor-align-right elementor-list-item-link-inline elementor-widget elementor-widget-icon-list" data-id="ec6e6ee" data-element_type="widget" data-widget_type="icon-list.default">
 <div className="elementor-widget-container">
 <ul className="elementor-icon-list-items">
 <li className="elementor-icon-list-item">
@@ -68,21 +71,21 @@ export default function HomePage() {
 </div>
 </div>
 </header>
-<div className="elementor elementor-69" data-elementor-id="69" data-elementor-post-type="page" data-elementor-type="wp-page">
-<div className="elementor-element elementor-element-b409504 e-flex e-con-boxed e-con e-parent" data-element_type="container" data-id="b409504" data-settings={`{"background_background":"classic"}`}>
+<div data-elementor-type="wp-page" data-elementor-id="69" className="elementor elementor-69" data-elementor-post-type="page">
+<div className="elementor-element elementor-element-b409504 e-flex e-con-boxed e-con e-parent" data-id="b409504" data-element_type="container" data-settings={`{"background_background":"classic"}`}>
 <div className="e-con-inner">
-<div className="elementor-element elementor-element-51467e0 e-con-full e-flex e-con e-child" data-element_type="container" data-id="51467e0">
-<div className="elementor-element elementor-element-2988a60 e-con-full elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile e-flex e-con e-child" data-element_type="container" data-id="2988a60">
-<div className="elementor-element elementor-element-fedec63 elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="fedec63" data-widget_type="text-editor.default">
+<div className="elementor-element elementor-element-51467e0 e-con-full e-flex e-con e-child" data-id="51467e0" data-element_type="container">
+<div className="elementor-element elementor-element-2988a60 e-con-full elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile e-flex e-con e-child" data-id="2988a60" data-element_type="container">
+<div className="elementor-element elementor-element-fedec63 elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-id="fedec63" data-element_type="widget" data-widget_type="text-editor.default">
 <div className="elementor-widget-container">
 <p>Noté 4.9/5 sur Google</p> </div>
 </div>
-<div className="elementor-element elementor-element-ba33602 elementor-widget__width-auto elementor-widget-mobile__width-auto elementor-widget elementor-widget-rating" data-element_type="widget" data-id="ba33602" data-widget_type="rating.default">
+<div className="elementor-element elementor-element-ba33602 elementor-widget__width-auto elementor-widget-mobile__width-auto elementor-widget elementor-widget-rating" data-id="ba33602" data-element_type="widget" data-widget_type="rating.default">
 <div className="elementor-widget-container">
-<div className="e-rating" itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
-<meta content="0" itemProp="worstRating" />
-<meta content="5" itemProp="bestRating" />
-<div aria-label="Noté 5 sur 5" className="e-rating-wrapper" content="5" itemProp="ratingValue" role="img">
+<div className="e-rating" itemType="https://schema.org/Rating" itemScope itemProp="reviewRating">
+<meta itemProp="worstRating" content="0" />
+<meta itemProp="bestRating" content="5" />
+<div className="e-rating-wrapper" itemProp="ratingValue" content="5" role="img" aria-label="Noté 5 sur 5">
 <div className="e-icon">
 <div className="e-icon-wrapper e-icon-marked">
 <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z"></path></svg> </div>
@@ -118,11 +121,11 @@ export default function HomePage() {
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-76d7ec6 elementor-widget elementor-widget-heading" data-element_type="widget" data-id="76d7ec6" data-widget_type="heading.default">
+<div className="elementor-element elementor-element-76d7ec6 elementor-widget elementor-widget-heading" data-id="76d7ec6" data-element_type="widget" data-widget_type="heading.default">
 <div className="elementor-widget-container">
 <h1 className="elementor-heading-title elementor-size-default">Chauffeur privé à Toulouse : votre solution de transport personnalisée</h1> </div>
 </div>
-<div className="elementor-element elementor-element-e2b0b85 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="e2b0b85" data-widget_type="icon-list.default">
+<div className="elementor-element elementor-element-e2b0b85 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="e2b0b85" data-element_type="widget" data-widget_type="icon-list.default">
 <div className="elementor-widget-container">
 <ul className="elementor-icon-list-items">
 <li className="elementor-icon-list-item">
@@ -149,70 +152,70 @@ export default function HomePage() {
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-8197fca e-con-full e-flex e-con e-child" data-element_type="container" data-id="8197fca" data-settings={`{"background_background":"classic"}`} id="devis">
-<div className="elementor-element elementor-element-9649147 elementor-widget elementor-widget-heading" data-element_type="widget" data-id="9649147" data-widget_type="heading.default">
+<div className="elementor-element elementor-element-8197fca e-con-full e-flex e-con e-child" data-id="8197fca" data-element_type="container" id="devis" data-settings={`{"background_background":"classic"}`}>
+<div className="elementor-element elementor-element-9649147 elementor-widget elementor-widget-heading" data-id="9649147" data-element_type="widget" data-widget_type="heading.default">
 <div className="elementor-widget-container">
 <h3 className="elementor-heading-title elementor-size-default">Demandez votre devis gratuit</h3> </div>
 </div>
-<div className="elementor-element elementor-element-13d16b7 devis elementor-button-align-stretch elementor-widget elementor-widget-global elementor-global-509 elementor-widget-form" data-element_type="widget" data-id="13d16b7" data-settings={`{"step_next_label":"Next","step_previous_label":"Previous","button_width":"100","step_type":"number_text","step_icon_shape":"circle"}`} data-widget_type="form.default">
+<div className="elementor-element elementor-element-13d16b7 devis elementor-button-align-stretch elementor-widget elementor-widget-global elementor-global-509 elementor-widget-form" data-id="13d16b7" data-element_type="widget" data-settings={`{"step_next_label":"Next","step_previous_label":"Previous","button_width":"100","step_type":"number_text","step_icon_shape":"circle"}`} data-widget_type="form.default">
 <div className="elementor-widget-container">
-<form aria-label="Formulaire VTC" className="elementor-form" method="post" name="Formulaire VTC">
-<input name="post_id" type="hidden" defaultValue="69" />
-<input name="form_id" type="hidden" defaultValue="13d16b7" />
-<input name="referer_title" type="hidden" defaultValue="" />
-<input name="queried_id" type="hidden" defaultValue="69" />
+<form className="elementor-form" method="post" name="Formulaire VTC" aria-label="Formulaire VTC">
+<input type="hidden" name="post_id" defaultValue="69" />
+<input type="hidden" name="form_id" defaultValue="13d16b7" />
+<input type="hidden" name="referer_title" defaultValue="" />
+<input type="hidden" name="queried_id" defaultValue="69" />
 <div className="elementor-form-fields-wrapper elementor-labels-">
 <div className="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-address1 elementor-col-50 elementor-field-required">
-<label className="elementor-field-label elementor-screen-only" htmlFor="form-field-address1">
+<label htmlFor="form-field-address1" className="elementor-field-label elementor-screen-only">
 								Adresse de départ							</label>
-<input className="elementor-field elementor-size-sm elementor-field-textual" id="form-field-address1" name="form_fields[address1]" placeholder="Adresse de départ*" required size={1} type="text" />
+<input size={1} type="text" name="form_fields[address1]" id="form-field-address1" className="elementor-field elementor-size-sm elementor-field-textual" placeholder="Adresse de départ*" required />
 </div>
 <div className="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-address2 elementor-col-50 elementor-field-required">
-<label className="elementor-field-label elementor-screen-only" htmlFor="form-field-address2">
+<label htmlFor="form-field-address2" className="elementor-field-label elementor-screen-only">
 								Adresse d'arrivée							</label>
-<input className="elementor-field elementor-size-sm elementor-field-textual" id="form-field-address2" name="form_fields[address2]" placeholder="Adresse d'arrivée*" required size={1} type="text" />
+<input size={1} type="text" name="form_fields[address2]" id="form-field-address2" className="elementor-field elementor-size-sm elementor-field-textual" placeholder="Adresse d'arrivée*" required />
 </div>
 <div className="elementor-field-type-date elementor-field-group elementor-column elementor-field-group-date_depart elementor-col-50 elementor-field-required">
-<label className="elementor-field-label elementor-screen-only" htmlFor="form-field-date_depart">
+<label htmlFor="form-field-date_depart" className="elementor-field-label elementor-screen-only">
 								Date							</label>
-<input className="elementor-field elementor-size-sm elementor-field-textual elementor-date-field elementor-use-native" id="form-field-date_depart" name="form_fields[date_depart]" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" placeholder="Date*" required type="date" />
+<input type="date" name="form_fields[date_depart]" id="form-field-date_depart" className="elementor-field elementor-size-sm elementor-field-textual elementor-date-field elementor-use-native" placeholder="Date*" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}" />
 </div>
 <div className="elementor-field-type-time elementor-field-group elementor-column elementor-field-group-heure_depart elementor-col-50 elementor-field-required">
-<label className="elementor-field-label elementor-screen-only" htmlFor="form-field-heure_depart">
+<label htmlFor="form-field-heure_depart" className="elementor-field-label elementor-screen-only">
 								Heure							</label>
-<input className="elementor-field elementor-size-sm elementor-field-textual elementor-time-field elementor-use-native" id="form-field-heure_depart" name="form_fields[heure_depart]" placeholder="Heure*" required type="time" />
+<input type="time" name="form_fields[heure_depart]" id="form-field-heure_depart" className="elementor-field elementor-size-sm elementor-field-textual elementor-time-field elementor-use-native" placeholder="Heure*" required />
 </div>
 <div className="elementor-field-type-select elementor-field-group elementor-column elementor-field-group-typevoiture elementor-col-100 elementor-field-required">
-<label className="elementor-field-label elementor-screen-only" htmlFor="form-field-typevoiture">
+<label htmlFor="form-field-typevoiture" className="elementor-field-label elementor-screen-only">
 								Voiture							</label>
 <div className="elementor-field elementor-select-wrapper remove-before">
 <div className="select-caret-down-wrapper">
 <svg aria-hidden="true" className="e-font-icon-svg e-eicon-caret-down" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 571.4 571.4"><path d="M571 393Q571 407 561 418L311 668Q300 679 286 679T261 668L11 418Q0 407 0 393T11 368 36 357H536Q550 357 561 368T571 393Z"></path></svg> </div>
-<select className="elementor-field-textual elementor-size-sm" id="form-field-typevoiture" name="form_fields[typevoiture]" required>
+<select name="form_fields[typevoiture]" id="form-field-typevoiture" className="elementor-field-textual elementor-size-sm" required>
 <option defaultValue="Berline (3 pax)">Berline (3 pax)</option>
 <option defaultValue="Van (7 pax)">Van (7 pax)</option>
 </select>
 </div>
 </div>
 <div className="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-field-required">
-<label className="elementor-field-label elementor-screen-only" htmlFor="form-field-email">
+<label htmlFor="form-field-email" className="elementor-field-label elementor-screen-only">
 								Email							</label>
-<input className="elementor-field elementor-size-sm elementor-field-textual" id="form-field-email" name="form_fields[email]" placeholder="Votre email*" required size={1} type="email" />
+<input size={1} type="email" name="form_fields[email]" id="form-field-email" className="elementor-field elementor-size-sm elementor-field-textual" placeholder="Votre email*" required />
 </div>
 <div className="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-phone elementor-col-50 elementor-field-required">
-<label className="elementor-field-label elementor-screen-only" htmlFor="form-field-phone">
+<label htmlFor="form-field-phone" className="elementor-field-label elementor-screen-only">
 								Téléphone							</label>
-<input className="elementor-field elementor-size-sm elementor-field-textual" id="form-field-phone" name="form_fields[phone]" pattern="[0-9()#&+*-=.]+" placeholder="Votre téléphone*" required size={1} title="Seuls les caractères de numéros de téléphone (#, -, *, etc.) sont acceptés." type="tel" />
+<input size={1} type="tel" name="form_fields[phone]" id="form-field-phone" className="elementor-field elementor-size-sm elementor-field-textual" placeholder="Votre téléphone*" required pattern="[0-9()#&+*-=.]+" title="Seuls les caractères de numéros de téléphone (#, -, *, etc.) sont acceptés." />
 </div>
 <div className="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100">
-<label className="elementor-field-label elementor-screen-only" htmlFor="form-field-message">
+<label htmlFor="form-field-message" className="elementor-field-label elementor-screen-only">
 								Message							</label>
-<textarea className="elementor-field-textual elementor-field elementor-size-sm" id="form-field-message" name="form_fields[message]" placeholder="Informations additionnelles" rows={3}></textarea> </div>
+<textarea className="elementor-field-textual elementor-field elementor-size-sm" name="form_fields[message]" id="form-field-message" rows={3} placeholder="Informations additionnelles"></textarea> </div>
 <div className="elementor-field-type-hidden elementor-field-group elementor-column elementor-field-group-distance elementor-col-100">
-<input className="elementor-field elementor-size-sm elementor-field-textual" id="form-field-distance" name="form_fields[distance]" size={1} type="hidden" />
+<input size={1} type="hidden" name="form_fields[distance]" id="form-field-distance" className="elementor-field elementor-size-sm elementor-field-textual" />
 </div>
 <div className="elementor-field-type-hidden elementor-field-group elementor-column elementor-field-group-prix elementor-col-100">
-<input className="elementor-field elementor-size-sm elementor-field-textual" id="form-field-prix" name="form_fields[prix]" size={1} type="hidden" />
+<input size={1} type="hidden" name="form_fields[prix]" id="form-field-prix" className="elementor-field elementor-size-sm elementor-field-textual" />
 </div>
 <div className="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
 <button className="elementor-button elementor-size-sm" type="submit">
@@ -228,19 +231,19 @@ export default function HomePage() {
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-d521dcc e-flex e-con-boxed e-con e-parent" data-element_type="container" data-id="d521dcc">
+<div className="elementor-element elementor-element-d521dcc e-flex e-con-boxed e-con e-parent" data-id="d521dcc" data-element_type="container">
 <div className="e-con-inner">
-<div className="elementor-element elementor-element-9176350 e-con-full e-flex e-con e-child" data-element_type="container" data-id="9176350">
-<div className="elementor-element elementor-element-2fce2af e-con-full e-flex e-con e-child" data-element_type="container" data-id="2fce2af">
-<div className="elementor-element elementor-element-04ceb97 elementor-widget elementor-widget-heading" data-element_type="widget" data-id="04ceb97" data-widget_type="heading.default">
+<div className="elementor-element elementor-element-9176350 e-con-full e-flex e-con e-child" data-id="9176350" data-element_type="container">
+<div className="elementor-element elementor-element-2fce2af e-con-full e-flex e-con e-child" data-id="2fce2af" data-element_type="container">
+<div className="elementor-element elementor-element-04ceb97 elementor-widget elementor-widget-heading" data-id="04ceb97" data-element_type="widget" data-widget_type="heading.default">
 <div className="elementor-widget-container">
 <h2 className="elementor-heading-title elementor-size-default">Une équipe professionnelle pour des trajets en toute sérénité</h2> </div>
 </div>
-<div className="elementor-element elementor-element-750e6ab elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="750e6ab" data-widget_type="text-editor.default">
+<div className="elementor-element elementor-element-750e6ab elementor-widget elementor-widget-text-editor" data-id="750e6ab" data-element_type="widget" data-widget_type="text-editor.default">
 <div className="elementor-widget-container">
 <div className="font-claude-message relative leading-[1.65rem] [&>div>div>:is(p,ul,ol)]:pr-4 md:[&>div>div>:is(p,ul,ol)]:pr-8 [&_pre>div]:bg-bg-300 [&_.ignore-pre-bg>div]:bg-transparent"><div><div className="grid-cols-1 grid gap-2.5 [&_>_*]:min-w-0"><p className="whitespace-pre-wrap break-words">Voyagez en toute tranquillité avec notre service de transport privé. Notre flotte contemporaine et nos conducteurs expérimentés vous garantissent ponctualité et confort optimal lors de chaque déplacement.</p></div></div></div> </div>
 </div>
-<div className="elementor-element elementor-element-231af56 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="231af56" data-widget_type="icon-list.default">
+<div className="elementor-element elementor-element-231af56 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="231af56" data-element_type="widget" data-widget_type="icon-list.default">
 <div className="elementor-widget-container">
 <ul className="elementor-icon-list-items">
 <li className="elementor-icon-list-item">
@@ -262,15 +265,15 @@ export default function HomePage() {
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-4c7f7e7 e-con-full e-flex e-con e-child" data-element_type="container" data-id="4c7f7e7">
-<div className="elementor-element elementor-element-8fed456 elementor-widget elementor-widget-image" data-element_type="widget" data-id="8fed456" data-widget_type="image.default">
+<div className="elementor-element elementor-element-4c7f7e7 e-con-full e-flex e-con e-child" data-id="4c7f7e7" data-element_type="container">
+<div className="elementor-element elementor-element-8fed456 elementor-widget elementor-widget-image" data-id="8fed456" data-element_type="widget" data-widget_type="image.default">
 <div className="elementor-widget-container">
-<img alt="" className="attachment-full size-full wp-image-1270" decoding="async" height={300} sizes="(max-width: 450px) 100vw, 450px" src="/images/22-1.jpg" width={450} /> </div>
+<img decoding="async" width={450} height={300} src="/images/22-1.jpg" className="attachment-full size-full wp-image-1270" alt="" sizes="(max-width: 450px) 100vw, 450px" /> </div>
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-a18af29 e-con-full e-flex e-con e-child" data-element_type="container" data-id="a18af29">
-<div className="elementor-element elementor-element-679181f elementor-align-center elementor-widget__width-auto elementor-mobile-align-center elementor-widget elementor-widget-global elementor-global-848 elementor-widget-button" data-element_type="widget" data-id="679181f" data-widget_type="button.default">
+<div className="elementor-element elementor-element-a18af29 e-con-full e-flex e-con e-child" data-id="a18af29" data-element_type="container">
+<div className="elementor-element elementor-element-679181f elementor-align-center elementor-widget__width-auto elementor-mobile-align-center elementor-widget elementor-widget-global elementor-global-848 elementor-widget-button" data-id="679181f" data-element_type="widget" data-widget_type="button.default">
 <div className="elementor-widget-container">
 <div className="elementor-button-wrapper">
 <a className="elementor-button elementor-button-link elementor-size-sm" href="tel:+33765547394">
@@ -283,7 +286,7 @@ export default function HomePage() {
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-a57d440 elementor-align-left elementor-widget__width-auto elementor-mobile-align-center elementor-widget elementor-widget-global elementor-global-855 elementor-widget-button" data-element_type="widget" data-id="a57d440" data-widget_type="button.default">
+<div className="elementor-element elementor-element-a57d440 elementor-align-left elementor-widget__width-auto elementor-mobile-align-center elementor-widget elementor-widget-global elementor-global-855 elementor-widget-button" data-id="a57d440" data-element_type="widget" data-widget_type="button.default">
 <div className="elementor-widget-container">
 <div className="elementor-button-wrapper">
 <a className="elementor-button elementor-button-link elementor-size-sm" href="#devis">
@@ -297,17 +300,17 @@ export default function HomePage() {
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-344e0379 e-flex e-con-boxed e-con e-parent" data-element_type="container" data-id="344e0379" id="services">
+<div className="elementor-element elementor-element-344e0379 e-flex e-con-boxed e-con e-parent" data-id="344e0379" data-element_type="container" id="services">
 <div className="e-con-inner">
-<div className="elementor-element elementor-element-3b936b06 e-con-full e-flex e-con e-child" data-element_type="container" data-id="3b936b06">
-<div className="elementor-element elementor-element-78e42035 elementor-widget elementor-widget-heading" data-element_type="widget" data-id="78e42035" data-widget_type="heading.default">
+<div className="elementor-element elementor-element-3b936b06 e-con-full e-flex e-con e-child" data-id="3b936b06" data-element_type="container">
+<div className="elementor-element elementor-element-78e42035 elementor-widget elementor-widget-heading" data-id="78e42035" data-element_type="widget" data-widget_type="heading.default">
 <div className="elementor-widget-container">
 <h2 className="elementor-heading-title elementor-size-default">Nos services</h2> </div>
 </div>
-<div className="elementor-element elementor-element-45ccdc2 e-grid e-con-full e-con e-child" data-element_type="container" data-id="45ccdc2">
-<div className="elementor-element elementor-element-17fe6f6 e-flex e-con-boxed e-con e-child" data-element_type="container" data-id="17fe6f6" data-settings={`{"background_background":"classic"}`}>
+<div className="elementor-element elementor-element-45ccdc2 e-grid e-con-full e-con e-child" data-id="45ccdc2" data-element_type="container">
+<div className="elementor-element elementor-element-17fe6f6 e-flex e-con-boxed e-con e-child" data-id="17fe6f6" data-element_type="container" data-settings={`{"background_background":"classic"}`}>
 <div className="e-con-inner">
-<div className="elementor-element elementor-element-a16646f elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-element_type="widget" data-id="a16646f" data-widget_type="icon-box.default">
+<div className="elementor-element elementor-element-a16646f elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="a16646f" data-element_type="widget" data-widget_type="icon-box.default">
 <div className="elementor-widget-container">
 <div className="elementor-icon-box-wrapper">
 <div className="elementor-icon-box-icon">
@@ -331,9 +334,9 @@ export default function HomePage() {
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-c72e5c0 e-flex e-con-boxed e-con e-child" data-element_type="container" data-id="c72e5c0" data-settings={`{"background_background":"classic"}`}>
+<div className="elementor-element elementor-element-c72e5c0 e-flex e-con-boxed e-con e-child" data-id="c72e5c0" data-element_type="container" data-settings={`{"background_background":"classic"}`}>
 <div className="e-con-inner">
-<div className="elementor-element elementor-element-25aa524 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-element_type="widget" data-id="25aa524" data-widget_type="icon-box.default">
+<div className="elementor-element elementor-element-25aa524 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box" data-id="25aa524" data-element_type="widget" data-widget_type="icon-box.default">
 <div className="elementor-widget-container">
 <div className="elementor-icon-box-wrapper">
 <div className="elementor-icon-box-icon">
@@ -358,8 +361,8 @@ export default function HomePage() {
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-214e e-con-full e-flex e-con e-child" data-element_type="container" data-id="214e">
-<div className="elementor-element elementor-element-b495ad5 elementor-align-center elementor-widget__width-auto elementor-mobile-align-center elementor-widget elementor-widget-global elementor-global-848 elementor-widget-button" data-element_type="widget" data-id="b495ad5" data-widget_type="button.default">
+<div className="elementor-element elementor-element-214e e-con-full e-flex e-con e-child" data-id="214e" data-element_type="container">
+<div className="elementor-element elementor-element-b495ad5 elementor-align-center elementor-widget__width-auto elementor-mobile-align-center elementor-widget elementor-widget-global elementor-global-848 elementor-widget-button" data-id="b495ad5" data-element_type="widget" data-widget_type="button.default">
 <div className="elementor-widget-container">
 <div className="elementor-button-wrapper">
 <a className="elementor-button elementor-button-link elementor-size-sm" href="tel:+33765547394">
@@ -372,7 +375,7 @@ export default function HomePage() {
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-bd33ee7 elementor-align-left elementor-widget__width-auto elementor-mobile-align-center elementor-widget elementor-widget-global elementor-global-855 elementor-widget-button" data-element_type="widget" data-id="bd33ee7" data-widget_type="button.default">
+<div className="elementor-element elementor-element-bd33ee7 elementor-align-left elementor-widget__width-auto elementor-mobile-align-center elementor-widget elementor-widget-global elementor-global-855 elementor-widget-button" data-id="bd33ee7" data-element_type="widget" data-widget_type="button.default">
 <div className="elementor-widget-container">
 <div className="elementor-button-wrapper">
 <a className="elementor-button elementor-button-link elementor-size-sm" href="#devis">
@@ -386,29 +389,29 @@ export default function HomePage() {
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-86cfd44 e-flex e-con-boxed e-con e-parent" data-element_type="container" data-id="86cfd44" data-settings={`{"background_background":"classic"}`} id="flotte">
+<div className="elementor-element elementor-element-86cfd44 e-flex e-con-boxed e-con e-parent" data-id="86cfd44" data-element_type="container" id="flotte" data-settings={`{"background_background":"classic"}`}>
 <div className="e-con-inner">
-<div className="elementor-element elementor-element-b2c49c6 e-con-full e-flex e-con e-child" data-element_type="container" data-id="b2c49c6">
-<div className="elementor-element elementor-element-f6cfe18 elementor-widget elementor-widget-heading" data-element_type="widget" data-id="f6cfe18" data-widget_type="heading.default">
+<div className="elementor-element elementor-element-b2c49c6 e-con-full e-flex e-con e-child" data-id="b2c49c6" data-element_type="container">
+<div className="elementor-element elementor-element-f6cfe18 elementor-widget elementor-widget-heading" data-id="f6cfe18" data-element_type="widget" data-widget_type="heading.default">
 <div className="elementor-widget-container">
 <h2 className="elementor-heading-title elementor-size-default">Notre flotte</h2> </div>
 </div>
-<div className="elementor-element elementor-element-c59f630 elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="c59f630" data-widget_type="text-editor.default">
+<div className="elementor-element elementor-element-c59f630 elementor-widget elementor-widget-text-editor" data-id="c59f630" data-element_type="widget" data-widget_type="text-editor.default">
 <div className="elementor-widget-container">
 <div className="font-claude-message relative leading-[1.65rem] [&>div>div>:is(p,ul,ol)]:pr-4 md:[&>div>div>:is(p,ul,ol)]:pr-8 [&_pre>div]:bg-bg-300 [&_.ignore-pre-bg>div]:bg-transparent"><div><div className="grid-cols-1 grid gap-2.5 [&_>_*]:min-w-0"><p className="whitespace-pre-wrap break-words">Notre flotte diversifiée s’adapte à toutes vos attentes. Que vous voyagiez seul, en duo ou en groupe, notre service de transport privé vous propose la solution idéale. Chacun de nos véhicules vous garantit un trajet alliant confort et fiabilité.</p></div></div></div> </div>
 </div>
-<div className="elementor-element elementor-element-e508633 e-grid e-con-boxed e-con e-child" data-element_type="container" data-id="e508633">
+<div className="elementor-element elementor-element-e508633 e-grid e-con-boxed e-con e-child" data-id="e508633" data-element_type="container">
 <div className="e-con-inner">
-<div className="elementor-element elementor-element-d5b991f e-con-full e-flex e-con e-child" data-element_type="container" data-id="d5b991f" data-settings={`{"background_background":"classic"}`}>
-<div className="elementor-element elementor-element-6a885b2 elementor-widget elementor-widget-heading" data-element_type="widget" data-id="6a885b2" data-widget_type="heading.default">
+<div className="elementor-element elementor-element-d5b991f e-con-full e-flex e-con e-child" data-id="d5b991f" data-element_type="container" data-settings={`{"background_background":"classic"}`}>
+<div className="elementor-element elementor-element-6a885b2 elementor-widget elementor-widget-heading" data-id="6a885b2" data-element_type="widget" data-widget_type="heading.default">
 <div className="elementor-widget-container">
 <h3 className="elementor-heading-title elementor-size-default">Berline</h3> </div>
 </div>
-<div className="elementor-element elementor-element-ad4b3a2 elementor-widget__width-auto elementor-widget elementor-widget-image" data-element_type="widget" data-id="ad4b3a2" data-widget_type="image.default">
+<div className="elementor-element elementor-element-ad4b3a2 elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="ad4b3a2" data-element_type="widget" data-widget_type="image.default">
 <div className="elementor-widget-container">
-<img alt="" className="attachment-full size-full wp-image-575" decoding="async" height={340} sizes="(max-width: 439px) 100vw, 439px" src="/images/eclass.png" width={439} /> </div>
+<img decoding="async" width={439} height={340} src="/images/eclass.png" className="attachment-full size-full wp-image-575" alt="" sizes="(max-width: 439px) 100vw, 439px" /> </div>
 </div>
-<div className="elementor-element elementor-element-bf4d32f elementor-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="bf4d32f" data-widget_type="icon-list.default">
+<div className="elementor-element elementor-element-bf4d32f elementor-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="bf4d32f" data-element_type="widget" data-widget_type="icon-list.default">
 <div className="elementor-widget-container">
 <ul className="elementor-icon-list-items">
 <li className="elementor-icon-list-item">
@@ -440,16 +443,16 @@ export default function HomePage() {
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-a02b49f e-con-full e-flex e-con e-child" data-element_type="container" data-id="a02b49f" data-settings={`{"background_background":"classic"}`}>
-<div className="elementor-element elementor-element-4d36d80 elementor-widget elementor-widget-heading" data-element_type="widget" data-id="4d36d80" data-widget_type="heading.default">
+<div className="elementor-element elementor-element-a02b49f e-con-full e-flex e-con e-child" data-id="a02b49f" data-element_type="container" data-settings={`{"background_background":"classic"}`}>
+<div className="elementor-element elementor-element-4d36d80 elementor-widget elementor-widget-heading" data-id="4d36d80" data-element_type="widget" data-widget_type="heading.default">
 <div className="elementor-widget-container">
 <h3 className="elementor-heading-title elementor-size-default">Van</h3> </div>
 </div>
-<div className="elementor-element elementor-element-40dfd31 elementor-widget__width-auto elementor-widget elementor-widget-image" data-element_type="widget" data-id="40dfd31" data-widget_type="image.default">
+<div className="elementor-element elementor-element-40dfd31 elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="40dfd31" data-element_type="widget" data-widget_type="image.default">
 <div className="elementor-widget-container">
-<img alt="" className="attachment-full size-full wp-image-577" decoding="async" height={340} loading="lazy" sizes="(max-width: 439px) 100vw, 439px" src="/images/V-Class.png" width={439} /> </div>
+<img loading="lazy" decoding="async" width={439} height={340} src="/images/V-Class.png" className="attachment-full size-full wp-image-577" alt="" sizes="(max-width: 439px) 100vw, 439px" /> </div>
 </div>
-<div className="elementor-element elementor-element-b36fe71 elementor-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="b36fe71" data-widget_type="icon-list.default">
+<div className="elementor-element elementor-element-b36fe71 elementor-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="b36fe71" data-element_type="widget" data-widget_type="icon-list.default">
 <div className="elementor-widget-container">
 <ul className="elementor-icon-list-items">
 <li className="elementor-icon-list-item">
@@ -483,8 +486,8 @@ export default function HomePage() {
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-a933768 e-con-full elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile e-flex e-con e-child" data-element_type="container" data-id="a933768">
-<div className="elementor-element elementor-element-2fc5850 elementor-align-center elementor-widget__width-auto elementor-mobile-align-center elementor-widget elementor-widget-global elementor-global-848 elementor-widget-button" data-element_type="widget" data-id="2fc5850" data-widget_type="button.default">
+<div className="elementor-element elementor-element-a933768 e-con-full elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile e-flex e-con e-child" data-id="a933768" data-element_type="container">
+<div className="elementor-element elementor-element-2fc5850 elementor-align-center elementor-widget__width-auto elementor-mobile-align-center elementor-widget elementor-widget-global elementor-global-848 elementor-widget-button" data-id="2fc5850" data-element_type="widget" data-widget_type="button.default">
 <div className="elementor-widget-container">
 <div className="elementor-button-wrapper">
 <a className="elementor-button elementor-button-link elementor-size-sm" href="tel:+33765547394">
@@ -497,7 +500,7 @@ export default function HomePage() {
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-15a4f78 elementor-align-left elementor-widget__width-auto elementor-mobile-align-center elementor-widget elementor-widget-global elementor-global-855 elementor-widget-button" data-element_type="widget" data-id="15a4f78" data-widget_type="button.default">
+<div className="elementor-element elementor-element-15a4f78 elementor-align-left elementor-widget__width-auto elementor-mobile-align-center elementor-widget elementor-widget-global elementor-global-855 elementor-widget-button" data-id="15a4f78" data-element_type="widget" data-widget_type="button.default">
 <div className="elementor-widget-container">
 <div className="elementor-button-wrapper">
 <a className="elementor-button elementor-button-link elementor-size-sm" href="#devis">
@@ -512,24 +515,24 @@ export default function HomePage() {
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-263444b elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile e-flex e-con-boxed e-con e-parent" data-element_type="container" data-id="263444b" id="avis">
+<div className="elementor-element elementor-element-263444b elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile e-flex e-con-boxed e-con e-parent" data-id="263444b" data-element_type="container" id="avis">
 <div className="e-con-inner">
-<div className="elementor-element elementor-element-5daa7fa e-con-full e-flex e-con e-child" data-element_type="container" data-id="5daa7fa">
-<div className="elementor-element elementor-element-e879bec elementor-widget elementor-widget-heading" data-element_type="widget" data-id="e879bec" data-widget_type="heading.default">
+<div className="elementor-element elementor-element-5daa7fa e-con-full e-flex e-con e-child" data-id="5daa7fa" data-element_type="container">
+<div className="elementor-element elementor-element-e879bec elementor-widget elementor-widget-heading" data-id="e879bec" data-element_type="widget" data-widget_type="heading.default">
 <div className="elementor-widget-container">
 <h2 className="elementor-heading-title elementor-size-default">Quelques mots de nos clients​</h2> </div>
 </div>
-<div className="elementor-element elementor-element-04d74e0 e-con-full e-flex e-con e-child" data-element_type="container" data-id="04d74e0">
-<div className="elementor-element elementor-element-06f1ac3 elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="06f1ac3" data-widget_type="text-editor.default">
+<div className="elementor-element elementor-element-04d74e0 e-con-full e-flex e-con e-child" data-id="04d74e0" data-element_type="container">
+<div className="elementor-element elementor-element-06f1ac3 elementor-widget__width-auto elementor-widget elementor-widget-text-editor" data-id="06f1ac3" data-element_type="widget" data-widget_type="text-editor.default">
 <div className="elementor-widget-container">
 <p>Centrale VTC Toulouse est notée 4.9/5 sur Google</p> </div>
 </div>
-<div className="elementor-element elementor-element-d467bba elementor-widget__width-auto elementor-widget-mobile__width-auto elementor-widget elementor-widget-rating" data-element_type="widget" data-id="d467bba" data-widget_type="rating.default">
+<div className="elementor-element elementor-element-d467bba elementor-widget__width-auto elementor-widget-mobile__width-auto elementor-widget elementor-widget-rating" data-id="d467bba" data-element_type="widget" data-widget_type="rating.default">
 <div className="elementor-widget-container">
-<div className="e-rating" itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
-<meta content="0" itemProp="worstRating" />
-<meta content="5" itemProp="bestRating" />
-<div aria-label="Noté 5 sur 5" className="e-rating-wrapper" content="5" itemProp="ratingValue" role="img">
+<div className="e-rating" itemType="https://schema.org/Rating" itemScope itemProp="reviewRating">
+<meta itemProp="worstRating" content="0" />
+<meta itemProp="bestRating" content="5" />
+<div className="e-rating-wrapper" itemProp="ratingValue" content="5" role="img" aria-label="Noté 5 sur 5">
 <div className="e-icon">
 <div className="e-icon-wrapper e-icon-marked">
 <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z"></path></svg> </div>
@@ -565,20 +568,20 @@ export default function HomePage() {
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-65f3f41 e-grid e-con-full e-con e-child" data-element_type="container" data-id="65f3f41">
-<div className="elementor-element elementor-element-b3bd187 e-flex e-con-boxed e-con e-child" data-element_type="container" data-id="b3bd187" data-settings={`{"background_background":"classic"}`}>
+<div className="elementor-element elementor-element-65f3f41 e-grid e-con-full e-con e-child" data-id="65f3f41" data-element_type="container">
+<div className="elementor-element elementor-element-b3bd187 e-flex e-con-boxed e-con e-child" data-id="b3bd187" data-element_type="container" data-settings={`{"background_background":"classic"}`}>
 <div className="e-con-inner">
-<div className="elementor-element elementor-element-b289bac e-con-full e-flex e-con e-child" data-element_type="container" data-id="b289bac">
-<div className="elementor-element elementor-element-23e1fc4 elementor-widget elementor-widget-heading" data-element_type="widget" data-id="23e1fc4" data-widget_type="heading.default">
+<div className="elementor-element elementor-element-b289bac e-con-full e-flex e-con e-child" data-id="b289bac" data-element_type="container">
+<div className="elementor-element elementor-element-23e1fc4 elementor-widget elementor-widget-heading" data-id="23e1fc4" data-element_type="widget" data-widget_type="heading.default">
 <div className="elementor-widget-container">
 <h3 className="elementor-heading-title elementor-size-default">Paul Rizk</h3> </div>
 </div>
-<div className="elementor-element elementor-element-a6655e6 elementor-widget elementor-widget-rating" data-element_type="widget" data-id="a6655e6" data-widget_type="rating.default">
+<div className="elementor-element elementor-element-a6655e6 elementor-widget elementor-widget-rating" data-id="a6655e6" data-element_type="widget" data-widget_type="rating.default">
 <div className="elementor-widget-container">
-<div className="e-rating" itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
-<meta content="0" itemProp="worstRating" />
-<meta content="5" itemProp="bestRating" />
-<div aria-label="Noté 5 sur 5" className="e-rating-wrapper" content="5" itemProp="ratingValue" role="img">
+<div className="e-rating" itemType="https://schema.org/Rating" itemScope itemProp="reviewRating">
+<meta itemProp="worstRating" content="0" />
+<meta itemProp="bestRating" content="5" />
+<div className="e-rating-wrapper" itemProp="ratingValue" content="5" role="img" aria-label="Noté 5 sur 5">
 <div className="e-icon">
 <div className="e-icon-wrapper e-icon-marked">
 <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z"></path></svg> </div>
@@ -613,25 +616,25 @@ export default function HomePage() {
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-0450f50 elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="0450f50" data-widget_type="text-editor.default">
+<div className="elementor-element elementor-element-0450f50 elementor-widget elementor-widget-text-editor" data-id="0450f50" data-element_type="widget" data-widget_type="text-editor.default">
 <div className="elementor-widget-container">
 									Je suis très satisfait du service de ce vtc. Le chauffeur était sympathique et m’a aidé avec mes bagages. Le véhicule était confortable et propre, et le trajet s’est déroulé en toute sécurité. Le prix était également raisonnable. Je n’hésiterai pas à utiliser à nouveau ce service lors de mes déplacements.								</div>
 </div>
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-cccb3cd e-con-full e-flex e-con e-child" data-element_type="container" data-id="cccb3cd" data-settings={`{"background_background":"classic"}`}>
-<div className="elementor-element elementor-element-7700317 e-con-full e-flex e-con e-child" data-element_type="container" data-id="7700317">
-<div className="elementor-element elementor-element-ef2b9aa elementor-widget elementor-widget-heading" data-element_type="widget" data-id="ef2b9aa" data-widget_type="heading.default">
+<div className="elementor-element elementor-element-cccb3cd e-con-full e-flex e-con e-child" data-id="cccb3cd" data-element_type="container" data-settings={`{"background_background":"classic"}`}>
+<div className="elementor-element elementor-element-7700317 e-con-full e-flex e-con e-child" data-id="7700317" data-element_type="container">
+<div className="elementor-element elementor-element-ef2b9aa elementor-widget elementor-widget-heading" data-id="ef2b9aa" data-element_type="widget" data-widget_type="heading.default">
 <div className="elementor-widget-container">
 <h3 className="elementor-heading-title elementor-size-default">Djamal Kati</h3> </div>
 </div>
-<div className="elementor-element elementor-element-c1543cb elementor-widget elementor-widget-rating" data-element_type="widget" data-id="c1543cb" data-widget_type="rating.default">
+<div className="elementor-element elementor-element-c1543cb elementor-widget elementor-widget-rating" data-id="c1543cb" data-element_type="widget" data-widget_type="rating.default">
 <div className="elementor-widget-container">
-<div className="e-rating" itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
-<meta content="0" itemProp="worstRating" />
-<meta content="5" itemProp="bestRating" />
-<div aria-label="Noté 5 sur 5" className="e-rating-wrapper" content="5" itemProp="ratingValue" role="img">
+<div className="e-rating" itemType="https://schema.org/Rating" itemScope itemProp="reviewRating">
+<meta itemProp="worstRating" content="0" />
+<meta itemProp="bestRating" content="5" />
+<div className="e-rating-wrapper" itemProp="ratingValue" content="5" role="img" aria-label="Noté 5 sur 5">
 <div className="e-icon">
 <div className="e-icon-wrapper e-icon-marked">
 <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z"></path></svg> </div>
@@ -666,7 +669,7 @@ export default function HomePage() {
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-25d4e21 elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="25d4e21" data-widget_type="text-editor.default">
+<div className="elementor-element elementor-element-25d4e21 elementor-widget elementor-widget-text-editor" data-id="25d4e21" data-element_type="widget" data-widget_type="text-editor.default">
 <div className="elementor-widget-container">
 									Par le biais de mon activité professionnelle, mes collaborateurs ou moi même faisons régulièrement le trajet Albi- Aéroport de Toulouse Blagnac avec cette compagnie de chauffeur privé et nous en sommes très satisfait.
 Chauffeur ponctuel, professionnel, berlines et vans confortables.
@@ -674,18 +677,18 @@ Je recommande								</div>
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-061183c e-con-full e-flex e-con e-child" data-element_type="container" data-id="061183c" data-settings={`{"background_background":"classic"}`}>
-<div className="elementor-element elementor-element-3b05b03 e-con-full e-flex e-con e-child" data-element_type="container" data-id="3b05b03">
-<div className="elementor-element elementor-element-1c07e84 elementor-widget elementor-widget-heading" data-element_type="widget" data-id="1c07e84" data-widget_type="heading.default">
+<div className="elementor-element elementor-element-061183c e-con-full e-flex e-con e-child" data-id="061183c" data-element_type="container" data-settings={`{"background_background":"classic"}`}>
+<div className="elementor-element elementor-element-3b05b03 e-con-full e-flex e-con e-child" data-id="3b05b03" data-element_type="container">
+<div className="elementor-element elementor-element-1c07e84 elementor-widget elementor-widget-heading" data-id="1c07e84" data-element_type="widget" data-widget_type="heading.default">
 <div className="elementor-widget-container">
 <h3 className="elementor-heading-title elementor-size-default">Elisa Als</h3> </div>
 </div>
-<div className="elementor-element elementor-element-70ed0ea elementor-widget elementor-widget-rating" data-element_type="widget" data-id="70ed0ea" data-widget_type="rating.default">
+<div className="elementor-element elementor-element-70ed0ea elementor-widget elementor-widget-rating" data-id="70ed0ea" data-element_type="widget" data-widget_type="rating.default">
 <div className="elementor-widget-container">
-<div className="e-rating" itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
-<meta content="0" itemProp="worstRating" />
-<meta content="5" itemProp="bestRating" />
-<div aria-label="Noté 5 sur 5" className="e-rating-wrapper" content="5" itemProp="ratingValue" role="img">
+<div className="e-rating" itemType="https://schema.org/Rating" itemScope itemProp="reviewRating">
+<meta itemProp="worstRating" content="0" />
+<meta itemProp="bestRating" content="5" />
+<div className="e-rating-wrapper" itemProp="ratingValue" content="5" role="img" aria-label="Noté 5 sur 5">
 <div className="e-icon">
 <div className="e-icon-wrapper e-icon-marked">
 <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z"></path></svg> </div>
@@ -720,25 +723,25 @@ Je recommande								</div>
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-6505901 elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="6505901" data-widget_type="text-editor.default">
+<div className="elementor-element elementor-element-6505901 elementor-widget elementor-widget-text-editor" data-id="6505901" data-element_type="widget" data-widget_type="text-editor.default">
 <div className="elementor-widget-container">
 									Tout s’est super bien passé, l’organisation entre les chauffeurs est au top, ils sont ponctuels et accueillant. Les voitures et van sont très propres. Nous avons même eu le droit à une « visière guidée » et le chauffeur nous a même ouvert la porte pour que nous puissions prendre des photos de meilleurs qualité. Je recommande sans hésiter, encore merci à eux tous.
 								</div>
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-fbac37d e-con-full e-flex e-con e-child" data-element_type="container" data-id="fbac37d" data-settings={`{"background_background":"classic"}`}>
-<div className="elementor-element elementor-element-95ad641 e-con-full e-flex e-con e-child" data-element_type="container" data-id="95ad641">
-<div className="elementor-element elementor-element-2c829c8 elementor-widget elementor-widget-heading" data-element_type="widget" data-id="2c829c8" data-widget_type="heading.default">
+<div className="elementor-element elementor-element-fbac37d e-con-full e-flex e-con e-child" data-id="fbac37d" data-element_type="container" data-settings={`{"background_background":"classic"}`}>
+<div className="elementor-element elementor-element-95ad641 e-con-full e-flex e-con e-child" data-id="95ad641" data-element_type="container">
+<div className="elementor-element elementor-element-2c829c8 elementor-widget elementor-widget-heading" data-id="2c829c8" data-element_type="widget" data-widget_type="heading.default">
 <div className="elementor-widget-container">
 <h3 className="elementor-heading-title elementor-size-default">Kyle Rise</h3> </div>
 </div>
-<div className="elementor-element elementor-element-e58740b elementor-widget elementor-widget-rating" data-element_type="widget" data-id="e58740b" data-widget_type="rating.default">
+<div className="elementor-element elementor-element-e58740b elementor-widget elementor-widget-rating" data-id="e58740b" data-element_type="widget" data-widget_type="rating.default">
 <div className="elementor-widget-container">
-<div className="e-rating" itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
-<meta content="0" itemProp="worstRating" />
-<meta content="5" itemProp="bestRating" />
-<div aria-label="Noté 5 sur 5" className="e-rating-wrapper" content="5" itemProp="ratingValue" role="img">
+<div className="e-rating" itemType="https://schema.org/Rating" itemScope itemProp="reviewRating">
+<meta itemProp="worstRating" content="0" />
+<meta itemProp="bestRating" content="5" />
+<div className="e-rating-wrapper" itemProp="ratingValue" content="5" role="img" aria-label="Noté 5 sur 5">
 <div className="e-icon">
 <div className="e-icon-wrapper e-icon-marked">
 <svg aria-hidden="true" className="e-font-icon-svg e-eicon-star" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><path d="M450 75L338 312 88 350C46 354 25 417 58 450L238 633 196 896C188 942 238 975 275 954L500 837 725 954C767 975 813 942 804 896L763 633 942 450C975 417 954 358 913 350L663 312 550 75C529 33 471 33 450 75Z"></path></svg> </div>
@@ -773,7 +776,7 @@ Je recommande								</div>
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-1269adb elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="1269adb" data-widget_type="text-editor.default">
+<div className="elementor-element elementor-element-1269adb elementor-widget elementor-widget-text-editor" data-id="1269adb" data-element_type="widget" data-widget_type="text-editor.default">
 <div className="elementor-widget-container">
 									J’ai fait appel à Centrale VTC Toulouse pour un service de transport car ma société organiser un séminaire au alentours de Toulouse et tout était parfait, les chauffeurs, les véhicules, la conduite. En plus de la ponctualité. Ils ont su répondre à nos demandes de dernière minute. Vraiment, je recommande cette société de transport qui est d’après moi, la meilleure à Toulouse ! 🤩 👍🏼								</div>
 </div>
@@ -781,8 +784,8 @@ Je recommande								</div>
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-1a7eadd e-con-full e-flex e-con e-child" data-element_type="container" data-id="1a7eadd">
-<div className="elementor-element elementor-element-d14ec7e elementor-align-center elementor-widget__width-auto elementor-mobile-align-center elementor-widget elementor-widget-global elementor-global-848 elementor-widget-button" data-element_type="widget" data-id="d14ec7e" data-widget_type="button.default">
+<div className="elementor-element elementor-element-1a7eadd e-con-full e-flex e-con e-child" data-id="1a7eadd" data-element_type="container">
+<div className="elementor-element elementor-element-d14ec7e elementor-align-center elementor-widget__width-auto elementor-mobile-align-center elementor-widget elementor-widget-global elementor-global-848 elementor-widget-button" data-id="d14ec7e" data-element_type="widget" data-widget_type="button.default">
 <div className="elementor-widget-container">
 <div className="elementor-button-wrapper">
 <a className="elementor-button elementor-button-link elementor-size-sm" href="tel:+33765547394">
@@ -795,7 +798,7 @@ Je recommande								</div>
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-09873ab elementor-align-left elementor-widget__width-auto elementor-mobile-align-center elementor-widget elementor-widget-global elementor-global-855 elementor-widget-button" data-element_type="widget" data-id="09873ab" data-widget_type="button.default">
+<div className="elementor-element elementor-element-09873ab elementor-align-left elementor-widget__width-auto elementor-mobile-align-center elementor-widget elementor-widget-global elementor-global-855 elementor-widget-button" data-id="09873ab" data-element_type="widget" data-widget_type="button.default">
 <div className="elementor-widget-container">
 <div className="elementor-button-wrapper">
 <a className="elementor-button elementor-button-link elementor-size-sm" href="#devis">
@@ -809,22 +812,22 @@ Je recommande								</div>
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-ab4a924 e-flex e-con-boxed e-con e-parent" data-element_type="container" data-id="ab4a924" id="zones">
+<div className="elementor-element elementor-element-ab4a924 e-flex e-con-boxed e-con e-parent" data-id="ab4a924" data-element_type="container" id="zones">
 <div className="e-con-inner">
-<div className="elementor-element elementor-element-62d9e1c e-con-full e-flex e-con e-child" data-element_type="container" data-id="62d9e1c">
-<div className="elementor-element elementor-element-c319a11 e-con-full e-flex e-con e-child" data-element_type="container" data-id="c319a11">
-<div className="elementor-element elementor-element-7d3933b elementor-widget elementor-widget-heading" data-element_type="widget" data-id="7d3933b" data-widget_type="heading.default">
+<div className="elementor-element elementor-element-62d9e1c e-con-full e-flex e-con e-child" data-id="62d9e1c" data-element_type="container">
+<div className="elementor-element elementor-element-c319a11 e-con-full e-flex e-con e-child" data-id="c319a11" data-element_type="container">
+<div className="elementor-element elementor-element-7d3933b elementor-widget elementor-widget-heading" data-id="7d3933b" data-element_type="widget" data-widget_type="heading.default">
 <div className="elementor-widget-container">
 <h2 className="elementor-heading-title elementor-size-default">Nos zones d'intervention</h2> </div>
 </div>
-<div className="elementor-element elementor-element-578b34f elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="578b34f" data-widget_type="text-editor.default">
+<div className="elementor-element elementor-element-578b34f elementor-widget elementor-widget-text-editor" data-id="578b34f" data-element_type="widget" data-widget_type="text-editor.default">
 <div className="elementor-widget-container">
-<article className="w-full text-token-text-primary focus-visible:outline-2 focus-visible:outline-offset-[-4px] sm:AIPRM__conversation__response" data-scroll-anchor="true" data-testid="conversation-turn-3" dir="auto"><div className="text-base my-auto mx-auto py-[18px] px-6"><div className="mx-auto flex flex-1 text-base gap-4 md:gap-5 lg:gap-6 md:max-w-3xl"><div className="group/conversation-turn relative flex w-full min-w-0 flex-col agent-turn @xs/thread:px-0 @sm/thread:px-1.5 @md/thread:px-4"><div className="flex-col gap-1 md:gap-3"><div className="flex max-w-full flex-col flex-grow AIPRM__conversation__response"><div className="min-h-8 text-message relative flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&]:mt-5" data-message-author-role="assistant" data-message-id="dcb848eb-1dd3-40a7-9844-c9e6cb275b3b" data-message-model-slug="gpt-4o-mini" dir="auto"><div className="flex w-full flex-col gap-1 empty:hidden first:pt-[3px]"><div className="markdown prose w-full break-words dark:prose-invert light"><p data-end="248" data-is-last-node="" data-is-only-node="" data-start="0">Notre service de chauffeur privé VTC couvre toute l’agglomération de Toulouse ainsi qu’un rayon de 40 km autour de la ville, incluant également des villes voisines pour lesquelles nous proposons des prestations de transport depuis et vers Toulouse.</p></div></div></div></div></div></div></div></div></article> </div>
+<article className="w-full text-token-text-primary focus-visible:outline-2 focus-visible:outline-offset-[-4px] sm:AIPRM__conversation__response" dir="auto" data-testid="conversation-turn-3" data-scroll-anchor="true"><div className="text-base my-auto mx-auto py-[18px] px-6"><div className="mx-auto flex flex-1 text-base gap-4 md:gap-5 lg:gap-6 md:max-w-3xl"><div className="group/conversation-turn relative flex w-full min-w-0 flex-col agent-turn @xs/thread:px-0 @sm/thread:px-1.5 @md/thread:px-4"><div className="flex-col gap-1 md:gap-3"><div className="flex max-w-full flex-col flex-grow AIPRM__conversation__response"><div className="min-h-8 text-message relative flex w-full flex-col items-end gap-2 whitespace-normal break-words text-start [.text-message+&]:mt-5" dir="auto" data-message-author-role="assistant" data-message-id="dcb848eb-1dd3-40a7-9844-c9e6cb275b3b" data-message-model-slug="gpt-4o-mini"><div className="flex w-full flex-col gap-1 empty:hidden first:pt-[3px]"><div className="markdown prose w-full break-words dark:prose-invert light"><p data-start="0" data-end="248" data-is-last-node="" data-is-only-node="">Notre service de chauffeur privé VTC couvre toute l’agglomération de Toulouse ainsi qu’un rayon de 40 km autour de la ville, incluant également des villes voisines pour lesquelles nous proposons des prestations de transport depuis et vers Toulouse.</p></div></div></div></div></div></div></div></div></article> </div>
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-460c8d4 e-con-full e-flex e-con e-child" data-element_type="container" data-id="460c8d4">
-<div className="elementor-element elementor-element-22233bb elementor-align-center elementor-widget__width-auto elementor-mobile-align-center elementor-widget elementor-widget-global elementor-global-848 elementor-widget-button" data-element_type="widget" data-id="22233bb" data-widget_type="button.default">
+<div className="elementor-element elementor-element-460c8d4 e-con-full e-flex e-con e-child" data-id="460c8d4" data-element_type="container">
+<div className="elementor-element elementor-element-22233bb elementor-align-center elementor-widget__width-auto elementor-mobile-align-center elementor-widget elementor-widget-global elementor-global-848 elementor-widget-button" data-id="22233bb" data-element_type="widget" data-widget_type="button.default">
 <div className="elementor-widget-container">
 <div className="elementor-button-wrapper">
 <a className="elementor-button elementor-button-link elementor-size-sm" href="tel:+33765547394">
@@ -837,7 +840,7 @@ Je recommande								</div>
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-f3a446a elementor-align-left elementor-widget__width-auto elementor-mobile-align-center elementor-widget elementor-widget-global elementor-global-855 elementor-widget-button" data-element_type="widget" data-id="f3a446a" data-widget_type="button.default">
+<div className="elementor-element elementor-element-f3a446a elementor-align-left elementor-widget__width-auto elementor-mobile-align-center elementor-widget elementor-widget-global elementor-global-855 elementor-widget-button" data-id="f3a446a" data-element_type="widget" data-widget_type="button.default">
 <div className="elementor-widget-container">
 <div className="elementor-button-wrapper">
 <a className="elementor-button elementor-button-link elementor-size-sm" href="#devis">
@@ -851,43 +854,43 @@ Je recommande								</div>
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-bee5c2d e-flex e-con-boxed e-con e-parent" data-element_type="container" data-id="bee5c2d" id="contact">
+<div className="elementor-element elementor-element-bee5c2d e-flex e-con-boxed e-con e-parent" data-id="bee5c2d" data-element_type="container" id="contact">
 <div className="e-con-inner">
-<div className="elementor-element elementor-element-1d28e82 elementor-widget elementor-widget-heading" data-element_type="widget" data-id="1d28e82" data-widget_type="heading.default">
+<div className="elementor-element elementor-element-1d28e82 elementor-widget elementor-widget-heading" data-id="1d28e82" data-element_type="widget" data-widget_type="heading.default">
 <div className="elementor-widget-container">
 <h2 className="elementor-heading-title elementor-size-default">Comment réserver votre chauffeur ?</h2> </div>
 </div>
-<div className="elementor-element elementor-element-15b9e5e e-con-full e-flex e-con e-child" data-element_type="container" data-id="15b9e5e">
-<div className="elementor-element elementor-element-e957609 e-grid e-con-full e-con e-child" data-element_type="container" data-id="e957609">
-<div className="elementor-element elementor-element-89f2520 e-con-full e-flex e-con e-child" data-element_type="container" data-id="89f2520" data-settings={`{"background_background":"classic"}`}>
-<div className="elementor-element elementor-element-815ce1d elementor-position-top elementor-widget elementor-widget-image-box" data-element_type="widget" data-id="815ce1d" data-widget_type="image-box.default">
+<div className="elementor-element elementor-element-15b9e5e e-con-full e-flex e-con e-child" data-id="15b9e5e" data-element_type="container">
+<div className="elementor-element elementor-element-e957609 e-grid e-con-full e-con e-child" data-id="e957609" data-element_type="container">
+<div className="elementor-element elementor-element-89f2520 e-con-full e-flex e-con e-child" data-id="89f2520" data-element_type="container" data-settings={`{"background_background":"classic"}`}>
+<div className="elementor-element elementor-element-815ce1d elementor-position-top elementor-widget elementor-widget-image-box" data-id="815ce1d" data-element_type="widget" data-widget_type="image-box.default">
 <div className="elementor-widget-container">
-<div className="elementor-image-box-wrapper"><figure className="elementor-image-box-img"><img alt="" className="attachment-full size-full wp-image-526" decoding="async" height={64} loading="lazy" src="/images/communiquer.png" width={64} /></figure><div className="elementor-image-box-content"><h3 className="elementor-image-box-title">Formulaire en ligne</h3><p className="elementor-image-box-description">Renseignez le  <a href="#devis">formulaire en ligne </a> du site avec des informations précises et nous reviendrons vers vous avec notre meilleur tarif.</p></div></div> </div>
+<div className="elementor-image-box-wrapper"><figure className="elementor-image-box-img"><img loading="lazy" decoding="async" width={64} height={64} src="/images/communiquer.png" className="attachment-full size-full wp-image-526" alt="" /></figure><div className="elementor-image-box-content"><h3 className="elementor-image-box-title">Formulaire en ligne</h3><p className="elementor-image-box-description">Renseignez le  <a href="#devis">formulaire en ligne </a> du site avec des informations précises et nous reviendrons vers vous avec notre meilleur tarif.</p></div></div> </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-e60be74 e-con-full e-flex e-con e-child" data-element_type="container" data-id="e60be74" data-settings={`{"background_background":"classic"}`}>
-<div className="elementor-element elementor-element-293d726 elementor-position-top elementor-widget elementor-widget-image-box" data-element_type="widget" data-id="293d726" data-widget_type="image-box.default">
+<div className="elementor-element elementor-element-e60be74 e-con-full e-flex e-con e-child" data-id="e60be74" data-element_type="container" data-settings={`{"background_background":"classic"}`}>
+<div className="elementor-element elementor-element-293d726 elementor-position-top elementor-widget elementor-widget-image-box" data-id="293d726" data-element_type="widget" data-widget_type="image-box.default">
 <div className="elementor-widget-container">
-<div className="elementor-image-box-wrapper"><figure className="elementor-image-box-img"><img alt="" className="attachment-full size-full wp-image-526" decoding="async" height={64} loading="lazy" src="/images/communiquer.png" width={64} /></figure><div className="elementor-image-box-content"><h3 className="elementor-image-box-title">Téléphone</h3><p className="elementor-image-box-description">Vous avez la possibilité de nous appeler directement par téléphone au  :<br /> <a href="tel:+33765547394">+33 7 65 54 73 94</a>
+<div className="elementor-image-box-wrapper"><figure className="elementor-image-box-img"><img loading="lazy" decoding="async" width={64} height={64} src="/images/communiquer.png" className="attachment-full size-full wp-image-526" alt="" /></figure><div className="elementor-image-box-content"><h3 className="elementor-image-box-title">Téléphone</h3><p className="elementor-image-box-description">Vous avez la possibilité de nous appeler directement par téléphone au  :<br /> <a href="tel:+33765547394">+33 7 65 54 73 94</a>
 </p></div></div> </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-cdcbd21 e-con-full e-flex e-con e-child" data-element_type="container" data-id="cdcbd21" data-settings={`{"background_background":"classic"}`}>
-<div className="elementor-element elementor-element-d98d782 elementor-position-top elementor-widget elementor-widget-image-box" data-element_type="widget" data-id="d98d782" data-widget_type="image-box.default">
+<div className="elementor-element elementor-element-cdcbd21 e-con-full e-flex e-con e-child" data-id="cdcbd21" data-element_type="container" data-settings={`{"background_background":"classic"}`}>
+<div className="elementor-element elementor-element-d98d782 elementor-position-top elementor-widget elementor-widget-image-box" data-id="d98d782" data-element_type="widget" data-widget_type="image-box.default">
 <div className="elementor-widget-container">
-<div className="elementor-image-box-wrapper"><figure className="elementor-image-box-img"><img alt="" className="attachment-full size-full wp-image-526" decoding="async" height={64} loading="lazy" src="/images/communiquer.png" width={64} /></figure><div className="elementor-image-box-content"><h3 className="elementor-image-box-title">WhatsApp</h3><p className="elementor-image-box-description">Nous sommes joignables également sur WhatsApp :<br /> <a href="https://wa.me/+33765547394">+33 7 65 54 73 94</a></p></div></div> </div>
+<div className="elementor-image-box-wrapper"><figure className="elementor-image-box-img"><img loading="lazy" decoding="async" width={64} height={64} src="/images/communiquer.png" className="attachment-full size-full wp-image-526" alt="" /></figure><div className="elementor-image-box-content"><h3 className="elementor-image-box-title">WhatsApp</h3><p className="elementor-image-box-description">Nous sommes joignables également sur WhatsApp :<br /> <a href="https://wa.me/+33765547394">+33 7 65 54 73 94</a></p></div></div> </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-cc5913b e-con-full e-flex e-con e-child" data-element_type="container" data-id="cc5913b" data-settings={`{"background_background":"classic"}`}>
-<div className="elementor-element elementor-element-ce94b93 elementor-position-top elementor-widget elementor-widget-image-box" data-element_type="widget" data-id="ce94b93" data-widget_type="image-box.default">
+<div className="elementor-element elementor-element-cc5913b e-con-full e-flex e-con e-child" data-id="cc5913b" data-element_type="container" data-settings={`{"background_background":"classic"}`}>
+<div className="elementor-element elementor-element-ce94b93 elementor-position-top elementor-widget elementor-widget-image-box" data-id="ce94b93" data-element_type="widget" data-widget_type="image-box.default">
 <div className="elementor-widget-container">
-<div className="elementor-image-box-wrapper"><figure className="elementor-image-box-img"><img alt="" className="attachment-full size-full wp-image-526" decoding="async" height={64} loading="lazy" src="/images/communiquer.png" width={64} /></figure><div className="elementor-image-box-content"><h3 className="elementor-image-box-title">E-mail</h3><p className="elementor-image-box-description">Vous pouvez nous écrire directement à l'adresse : <br /><a href="mailto:contact@laligneduvtc.fr">contact@laligneduvtc.fr</a></p></div></div> </div>
+<div className="elementor-image-box-wrapper"><figure className="elementor-image-box-img"><img loading="lazy" decoding="async" width={64} height={64} src="/images/communiquer.png" className="attachment-full size-full wp-image-526" alt="" /></figure><div className="elementor-image-box-content"><h3 className="elementor-image-box-title">E-mail</h3><p className="elementor-image-box-description">Vous pouvez nous écrire directement à l'adresse : <br /><a href="mailto:contact@laligneduvtc.fr">contact@laligneduvtc.fr</a></p></div></div> </div>
 </div>
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-d20f574 e-con-full e-flex e-con e-child" data-element_type="container" data-id="d20f574">
-<div className="elementor-element elementor-element-e1c7d0a elementor-align-center elementor-widget__width-auto elementor-mobile-align-center elementor-widget elementor-widget-global elementor-global-848 elementor-widget-button" data-element_type="widget" data-id="e1c7d0a" data-widget_type="button.default">
+<div className="elementor-element elementor-element-d20f574 e-con-full e-flex e-con e-child" data-id="d20f574" data-element_type="container">
+<div className="elementor-element elementor-element-e1c7d0a elementor-align-center elementor-widget__width-auto elementor-mobile-align-center elementor-widget elementor-widget-global elementor-global-848 elementor-widget-button" data-id="e1c7d0a" data-element_type="widget" data-widget_type="button.default">
 <div className="elementor-widget-container">
 <div className="elementor-button-wrapper">
 <a className="elementor-button elementor-button-link elementor-size-sm" href="tel:+33765547394">
@@ -900,7 +903,7 @@ Je recommande								</div>
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-1551d26 elementor-align-left elementor-widget__width-auto elementor-mobile-align-center elementor-widget elementor-widget-global elementor-global-855 elementor-widget-button" data-element_type="widget" data-id="1551d26" data-widget_type="button.default">
+<div className="elementor-element elementor-element-1551d26 elementor-align-left elementor-widget__width-auto elementor-mobile-align-center elementor-widget elementor-widget-global elementor-global-855 elementor-widget-button" data-id="1551d26" data-element_type="widget" data-widget_type="button.default">
 <div className="elementor-widget-container">
 <div className="elementor-button-wrapper">
 <a className="elementor-button elementor-button-link elementor-size-sm" href="#devis">
@@ -914,25 +917,25 @@ Je recommande								</div>
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-c076fb5 e-flex e-con-boxed e-con e-parent" data-element_type="container" data-id="c076fb5">
+<div className="elementor-element elementor-element-c076fb5 e-flex e-con-boxed e-con e-parent" data-id="c076fb5" data-element_type="container">
 <div className="e-con-inner">
-<div className="elementor-element elementor-element-043a20f e-con-full e-flex e-con e-child" data-element_type="container" data-id="043a20f">
-<div className="elementor-element elementor-element-8978709 elementor-widget elementor-widget-image" data-element_type="widget" data-id="8978709" data-widget_type="image.default">
+<div className="elementor-element elementor-element-043a20f e-con-full e-flex e-con e-child" data-id="043a20f" data-element_type="container">
+<div className="elementor-element elementor-element-8978709 elementor-widget elementor-widget-image" data-id="8978709" data-element_type="widget" data-widget_type="image.default">
 <div className="elementor-widget-container">
-<img alt="" className="attachment-full size-full wp-image-1271" decoding="async" height={300} loading="lazy" sizes="(max-width: 450px) 100vw, 450px" src="/images/22-2.jpg" width={450} /> </div>
+<img loading="lazy" decoding="async" width={450} height={300} src="/images/22-2.jpg" className="attachment-full size-full wp-image-1271" alt="" sizes="(max-width: 450px) 100vw, 450px" /> </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-6a7d09c e-con-full e-flex e-con e-child" data-element_type="container" data-id="6a7d09c">
-<div className="elementor-element elementor-element-85bc8cc elementor-widget elementor-widget-heading" data-element_type="widget" data-id="85bc8cc" data-widget_type="heading.default">
+<div className="elementor-element elementor-element-6a7d09c e-con-full e-flex e-con e-child" data-id="6a7d09c" data-element_type="container">
+<div className="elementor-element elementor-element-85bc8cc elementor-widget elementor-widget-heading" data-id="85bc8cc" data-element_type="widget" data-widget_type="heading.default">
 <div className="elementor-widget-container">
 <h2 className="elementor-heading-title elementor-size-default">Votre chauffeur VTC à Toulouse vous attend, réservez dès maintenant !
 </h2> </div>
 </div>
-<div className="elementor-element elementor-element-837388d elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="837388d" data-widget_type="text-editor.default">
+<div className="elementor-element elementor-element-837388d elementor-widget elementor-widget-text-editor" data-id="837388d" data-element_type="widget" data-widget_type="text-editor.default">
 <div className="elementor-widget-container">
-<div className="flex max-w-full flex-col flex-grow AIPRM__conversation__response"><div className="min-h-[20px] text-message flex w-full flex-col items-end gap-2 whitespace-pre-wrap break-words [.text-message+&]:mt-5 overflow-x-auto" data-message-author-role="assistant" data-message-id="c016622c-a03b-44b8-8631-cbabfc5e5205" dir="auto"><div className="flex w-full flex-col gap-1 empty:hidden first:pt-[3px]"><div className="markdown prose w-full break-words dark:prose-invert light"><p>Optez pour La Ligne du VTC et bénéficiez d’un trajet alliant confort, sécurité et fiabilité, avec des chauffeurs professionnels toujours à l’heure.</p></div></div></div></div> </div>
+<div className="flex max-w-full flex-col flex-grow AIPRM__conversation__response"><div className="min-h-[20px] text-message flex w-full flex-col items-end gap-2 whitespace-pre-wrap break-words [.text-message+&]:mt-5 overflow-x-auto" dir="auto" data-message-author-role="assistant" data-message-id="c016622c-a03b-44b8-8631-cbabfc5e5205"><div className="flex w-full flex-col gap-1 empty:hidden first:pt-[3px]"><div className="markdown prose w-full break-words dark:prose-invert light"><p>Optez pour La Ligne du VTC et bénéficiez d’un trajet alliant confort, sécurité et fiabilité, avec des chauffeurs professionnels toujours à l’heure.</p></div></div></div></div> </div>
 </div>
-<div className="elementor-element elementor-element-efed6bb elementor-align-left elementor-widget__width-auto elementor-mobile-align-center elementor-widget elementor-widget-button" data-element_type="widget" data-id="efed6bb" data-widget_type="button.default">
+<div className="elementor-element elementor-element-efed6bb elementor-align-left elementor-widget__width-auto elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="efed6bb" data-element_type="widget" data-widget_type="button.default">
 <div className="elementor-widget-container">
 <div className="elementor-button-wrapper">
 <a className="elementor-button elementor-button-link elementor-size-sm" href="#devis">
@@ -946,16 +949,16 @@ Je recommande								</div>
 </div>
 </div>
 </div>
-<section className="elementor-section elementor-top-section elementor-element elementor-element-13ec43a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-element_type="section" data-id="13ec43a">
+<section className="elementor-section elementor-top-section elementor-element elementor-element-13ec43a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="13ec43a" data-element_type="section">
 <div className="elementor-container elementor-column-gap-default">
 </div>
 </section>
 </div>
-<footer className="elementor elementor-50 elementor-location-footer" data-elementor-id="50" data-elementor-post-type="elementor_library" data-elementor-type="footer">
-<div className="elementor-element elementor-element-2d955e0 e-flex e-con-boxed e-con e-parent" data-element_type="container" data-id="2d955e0" data-settings={`{"background_background":"classic"}`}>
+<footer data-elementor-type="footer" data-elementor-id="50" className="elementor elementor-50 elementor-location-footer" data-elementor-post-type="elementor_library">
+<div className="elementor-element elementor-element-2d955e0 e-flex e-con-boxed e-con e-parent" data-id="2d955e0" data-element_type="container" data-settings={`{"background_background":"classic"}`}>
 <div className="e-con-inner">
-<div className="elementor-element elementor-element-358a13c e-con-full e-flex e-con e-child" data-element_type="container" data-id="358a13c">
-<div className="elementor-element elementor-element-8026a28 elementor-mobile-align-center elementor-align-center elementor-list-item-link-inline elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="8026a28" data-widget_type="icon-list.default">
+<div className="elementor-element elementor-element-358a13c e-con-full e-flex e-con e-child" data-id="358a13c" data-element_type="container">
+<div className="elementor-element elementor-element-8026a28 elementor-mobile-align-center elementor-align-center elementor-list-item-link-inline elementor-widget elementor-widget-icon-list" data-id="8026a28" data-element_type="widget" data-widget_type="icon-list.default">
 <div className="elementor-widget-container">
 <ul className="elementor-icon-list-items">
 <li className="elementor-icon-list-item">
@@ -969,8 +972,8 @@ Je recommande								</div>
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-86eb4b0 e-con-full e-flex e-con e-child" data-element_type="container" data-id="86eb4b0">
-<div className="elementor-element elementor-element-ebfd6fd elementor-mobile-align-center elementor-align-center elementor-list-item-link-inline elementor-widget elementor-widget-icon-list" data-element_type="widget" data-id="ebfd6fd" data-widget_type="icon-list.default">
+<div className="elementor-element elementor-element-86eb4b0 e-con-full e-flex e-con e-child" data-id="86eb4b0" data-element_type="container">
+<div className="elementor-element elementor-element-ebfd6fd elementor-mobile-align-center elementor-align-center elementor-list-item-link-inline elementor-widget elementor-widget-icon-list" data-id="ebfd6fd" data-element_type="widget" data-widget_type="icon-list.default">
 <div className="elementor-widget-container">
 <ul className="elementor-icon-list-items">
 <li className="elementor-icon-list-item">
@@ -986,30 +989,30 @@ Je recommande								</div>
 </div>
 </div>
 </div>
-<div className="elementor-element elementor-element-54e5fd9 e-flex e-con-boxed e-con e-parent" data-element_type="container" data-id="54e5fd9" data-settings={`{"background_background":"classic"}`}>
+<div className="elementor-element elementor-element-54e5fd9 e-flex e-con-boxed e-con e-parent" data-id="54e5fd9" data-element_type="container" data-settings={`{"background_background":"classic"}`}>
 <div className="e-con-inner">
-<div className="elementor-element elementor-element-6af26c9 e-con-full e-flex e-con e-child" data-element_type="container" data-id="6af26c9">
-<div className="elementor-element elementor-element-f0939b9 elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-heading" data-element_type="widget" data-id="f0939b9" data-widget_type="heading.default">
+<div className="elementor-element elementor-element-6af26c9 e-con-full e-flex e-con e-child" data-id="6af26c9" data-element_type="container">
+<div className="elementor-element elementor-element-f0939b9 elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-heading" data-id="f0939b9" data-element_type="widget" data-widget_type="heading.default">
 <div className="elementor-widget-container">
 <h5 className="elementor-heading-title elementor-size-default">Liens utiles</h5> </div>
 </div>
-<div className="elementor-element elementor-element-f64ff4d elementor-nav-menu__align-center elementor-nav-menu--dropdown-none elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-nav-menu" data-element_type="widget" data-id="f64ff4d" data-settings={`{"layout":"horizontal","submenu_icon":{"value":"<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-caret-down\" viewBox=\"0 0 320 512\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><path d=\"M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\"><\/path><\/svg>","library":"fa-solid"}}`} data-widget_type="nav-menu.default">
+<div className="elementor-element elementor-element-f64ff4d elementor-nav-menu__align-center elementor-nav-menu--dropdown-none elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-nav-menu" data-id="f64ff4d" data-element_type="widget" data-settings={`{"layout":"horizontal","submenu_icon":{"value":"<svg aria-hidden=\"true\" class=\"e-font-icon-svg e-fas-caret-down\" viewBox=\"0 0 320 512\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><path d=\"M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z\"><\/path><\/svg>","library":"fa-solid"}}`} data-widget_type="nav-menu.default">
 <div className="elementor-widget-container">
 <nav aria-label="Menu" className="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
-<ul className="elementor-nav-menu" id="menu-1-f64ff4d"><li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-94"><a className="elementor-item" href="https://etancheite-grand-paris.fr">Nos services</a></li>
-<li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-95"><a className="elementor-item" href="https://etancheite-grand-paris.fr/etancheite-toiture-terrasse-qualite.html">Qualité & recommandations étanchéité</a></li>
-<li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-96"><a className="elementor-item" href="https://etancheite-grand-paris.fr/mentions-legales.html">Mentions légales</a></li>
+<ul id="menu-1-f64ff4d" className="elementor-nav-menu"><li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-94"><a href="https://etancheite-grand-paris.fr" className="elementor-item">Nos services</a></li>
+<li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-95"><a href="https://etancheite-grand-paris.fr/etancheite-toiture-terrasse-qualite.html" className="elementor-item">Qualité & recommandations étanchéité</a></li>
+<li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-96"><a href="/mentions-legales" className="elementor-item">Mentions légales</a></li>
 </ul> </nav>
-<nav aria-hidden="true" className="elementor-nav-menu--dropdown elementor-nav-menu__container">
-<ul className="elementor-nav-menu" id="menu-2-f64ff4d"><li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-94"><a className="elementor-item" href="https://etancheite-grand-paris.fr" tabIndex={-1}>Nos services</a></li>
-<li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-95"><a className="elementor-item" href="https://etancheite-grand-paris.fr/etancheite-toiture-terrasse-qualite.html" tabIndex={-1}>Qualité & recommandations étanchéité</a></li>
-<li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-96"><a className="elementor-item" href="https://etancheite-grand-paris.fr/mentions-legales.html" tabIndex={-1}>Mentions légales</a></li>
+<nav className="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+<ul id="menu-2-f64ff4d" className="elementor-nav-menu"><li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-94"><a href="https://etancheite-grand-paris.fr" className="elementor-item" tabIndex={-1}>Nos services</a></li>
+<li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-95"><a href="https://etancheite-grand-paris.fr/etancheite-toiture-terrasse-qualite.html" className="elementor-item" tabIndex={-1}>Qualité & recommandations étanchéité</a></li>
+<li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-96"><a href="/mentions-legales" className="elementor-item" tabIndex={-1}>Mentions légales</a></li>
 </ul> </nav>
 </div>
 </div>
-<div className="elementor-element elementor-element-36b00c6 elementor-widget elementor-widget-text-editor" data-element_type="widget" data-id="36b00c6" data-widget_type="text-editor.default">
+<div className="elementor-element elementor-element-36b00c6 elementor-widget elementor-widget-text-editor" data-id="36b00c6" data-element_type="widget" data-widget_type="text-editor.default">
 <div className="elementor-widget-container">
-									La Ligne du VTC 2026 © Tous droits réservés. <a href="https://lp.laligneduvtc.fr/mentions-legales/" style={{ color: "white", textDecoration: "underline !important" }}>Mentions légales</a> </div>
+									La Ligne du VTC 2026 © Tous droits réservés. <a style={{ color: "white", textDecoration: "underline !important" }} href="/mentions-legales">Mentions légales</a> </div>
 </div>
 </div>
 </div>
@@ -1017,7 +1020,7 @@ Je recommande								</div>
 </footer>
 
 
-<link href="https://lp.laligneduvtc.fr/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.css?ver=4.6.13" id="flatpickr-css" media="all" rel="stylesheet" />
+<link rel="stylesheet" id="flatpickr-css" href="https://lp.laligneduvtc.fr/wp-content/plugins/elementor/assets/lib/flatpickr/flatpickr.min.css?ver=4.6.13" media="all" />
 
 
 

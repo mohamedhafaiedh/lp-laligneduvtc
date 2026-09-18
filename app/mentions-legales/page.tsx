@@ -1,14 +1,41 @@
-import React from "react";
-import type { Metadata } from "next";
+"use client";
 
-export const metadata: Metadata = {
-  title: "Mentions légales | La Ligne du VTC",
-  description: "Mentions légales et informations juridiques pour La Ligne du VTC - Transport privé VTC à Toulouse.",
-};
+import React, { useState } from "react";
 
-export default function MentionsLegalesPage() {
+export default function Page() {
+  const [formData, setFormData] = useState<Record<string, string>>({});
+  const [status, setStatus] = useState<string | null>(null);
+  const [loading, setLoading] = useState(false);
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setLoading(true);
+    setStatus(null);
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+      const data = await res.json();
+      if (data.success) {
+        setStatus("success");
+      } else {
+        setStatus("error");
+      }
+    } catch (err) {
+      setStatus("error");
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
-    <div id="mentions-legales-page" className="privacy-policy wp-singular page-template page-template-elementor_header_footer page page-id-75 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor wp-child-theme-hello-theme-child-master theme-default elementor-default elementor-template-full-width elementor-kit-11 elementor-page elementor-page-75">
+    <div className="wp-singular page-template page-template-elementor_header_footer page page-id-75 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor wp-child-theme-hello-theme-child-master theme-default elementor-default elementor-template-full-width elementor-kit-11 elementor-page elementor-page-75">
       
 
 
@@ -21,7 +48,7 @@ export default function MentionsLegalesPage() {
 <div className="elementor-element elementor-element-86c8447 e-con-full e-flex e-con e-child" data-id="86c8447" data-element_type="container">
 <div className="elementor-element elementor-element-b6b3e85 elementor-widget__width-auto elementor-widget elementor-widget-image" data-id="b6b3e85" data-element_type="widget" data-widget_type="image.default">
 <div className="elementor-widget-container">
-<a href="https://lp.laligneduvtc.fr">
+<a href="/">
 <img fetchPriority="high" width={800} height={454} src="/images/llv-logo.png" className="attachment-large size-large wp-image-1220" alt="" sizes="(max-width: 800px) 100vw, 800px" /> </a>
 </div>
 </div>
@@ -105,18 +132,18 @@ export default function MentionsLegalesPage() {
 <nav aria-label="Menu" className="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
 <ul id="menu-1-f64ff4d" className="elementor-nav-menu"><li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-94"><a href="https://etancheite-grand-paris.fr" className="elementor-item">Nos services</a></li>
 <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-95"><a href="https://etancheite-grand-paris.fr/etancheite-toiture-terrasse-qualite.html" className="elementor-item">Qualité & recommandations étanchéité</a></li>
-<li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-96"><a href="https://etancheite-grand-paris.fr/mentions-legales.html" className="elementor-item">Mentions légales</a></li>
+<li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-96"><a href="/mentions-legales" className="elementor-item">Mentions légales</a></li>
 </ul> </nav>
 <nav className="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
 <ul id="menu-2-f64ff4d" className="elementor-nav-menu"><li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-94"><a href="https://etancheite-grand-paris.fr" className="elementor-item" tabIndex={-1}>Nos services</a></li>
 <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-95"><a href="https://etancheite-grand-paris.fr/etancheite-toiture-terrasse-qualite.html" className="elementor-item" tabIndex={-1}>Qualité & recommandations étanchéité</a></li>
-<li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-96"><a href="https://etancheite-grand-paris.fr/mentions-legales.html" className="elementor-item" tabIndex={-1}>Mentions légales</a></li>
+<li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-96"><a href="/mentions-legales" className="elementor-item" tabIndex={-1}>Mentions légales</a></li>
 </ul> </nav>
 </div>
 </div>
 <div className="elementor-element elementor-element-36b00c6 elementor-widget elementor-widget-text-editor" data-id="36b00c6" data-element_type="widget" data-widget_type="text-editor.default">
 <div className="elementor-widget-container">
-									La Ligne du VTC 2026 © Tous droits réservés. <a style={{ color: "white", textDecoration: "underline !important" }} href="https://lp.laligneduvtc.fr/mentions-legales/">Mentions légales</a> </div>
+									La Ligne du VTC 2026 © Tous droits réservés. <a style={{ color: "white", textDecoration: "underline !important" }} href="/mentions-legales">Mentions légales</a> </div>
 </div>
 </div>
 </div>
