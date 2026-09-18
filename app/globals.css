@@ -180,10 +180,23 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 .elementor-page-title, h1.entry-title, .elementor-widget-theme-page-title {
   display: block !important;
 }
-.elementor-page-title .elementor-heading-title, h1.elementor-heading-title {
+
+/* Page d'accueil : Titre H1 du hero en BLANC */
+.elementor-element-76d7ec6 .elementor-heading-title,
+.elementor-69 .elementor-element-76d7ec6 h1 {
+  display: block !important;
+  color: #ffffff !important;
+}
+
+/* Page Mentions Légales : Titre H1 en NOIR */
+.elementor-75 .elementor-heading-title,
+.elementor-page-75 h1,
+.elementor-page-title .elementor-heading-title,
+.elementor-element-21900073 .elementor-heading-title {
   display: block !important;
   font-size: 32px !important;
   font-weight: 700 !important;
   margin-bottom: 20px !important;
   color: #111111 !important;
 }
+
